@@ -1,0 +1,133 @@
+.main {
+    display: flex;
+    height: auto;
+}
+
+
+.left {
+    background-color: rgb(27, 122, 160);
+    width: 30%;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 80px 300px 100px;
+    gap: 50px;
+    color: white;
+}
+
+.left .topic {
+    display: grid;
+}
+
+.left .sidegrid {
+    display: grid;
+}
+
+.side {
+    text-align: left;
+    padding: 10px;
+}
+
+.side i {
+    margin-right: 20px;
+}
+
+.right {
+    width: 75%;
+    display: grid;
+}
+
+.right-top {
+    height: 200px;
+    background-color: white;
+}
+
+.firstheader {
+    padding-top: 30px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.search2 {
+    padding-left: 300px;
+    display: flex;
+}
+
+.secondheader {
+    display: flex;
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.logo2 {
+    padding-left: 415px;
+}
+
+.logo2 button {
+    color: aliceblue;
+    background-color: rgb(68, 201, 224);
+    height: 44px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.right-bottom {
+    width: 100%;
+    display: flex;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.right-grid {
+    background-color: rgb(199, 212, 223);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    width: 65%
+}
+
+.heading {
+    display: flex;
+    padding-left: 30px;
+}
+
+.right-box {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.item {
+    height: 200px;
+    border-inline-start: 8px solid yellow;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.box {
+    height: 350px;
+    width: 250px;
+    padding-bottom: 30px;
+    border-inline-start: 8px solid yellow;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.box{
+    height:auto;
+    width:77%;
+    background-color: white;
+    border-radius: 8px;
+    padding-left: 30px;
+}
+
+.boxcontent{
+    display: flex;
+}
